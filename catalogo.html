@@ -4,13 +4,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
-	<title>Espuma Editora</title>
+	<meta name="keywords" content="editorial, libro, diseño, fotografia, fotolibro, fanzine, publicacion independiente, arte, risografia">
+	<meta name="description=" content="Espuma Editora, una pequeña editorial nacida en junio de 2019, enfocada en el cruce entre el texto y la imagen, así como el trabajo de edición, como oportunidad para construir sentidos.">
+	<title>Espuma Editora Catálogo</title>
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
 </head>
+<body>
 	<header>
-		<a href="Index.html"><img class="img__logo" src="images/espumaeditoralogo.jpg"></a>		
+		<a href="index.html"><img class="img__logo" src="images/logoespuma.svg"></a>		
 		<nav>	
 			<a class= "a--menúPrincipal" href="info.html"> INFO </a>
 			<a class= "a--menúPrincipal" href="catalogo.html"> CATÁLOGO </a>
@@ -32,28 +35,55 @@
 			<h2><a class= "texto__filtros" href="varios.html"> VARIOS </a></h2>
 		</div>
 		<div>
-			<h2><a class= "texto__filtros" href="carrito.html">CARRITO (0)</a></h2>
-		</div>		
-			<hr>
-		<div class="grid">	
-			<img src="images/libro1.jpg">					
-			<img src="images/libro2.jpg">		
-			<img src="images/libro3.jpg">			
-			<h4><a class="texto__epigrafe" href="libro1.html">¿Dónde estás?</a></h4>			
-			<h4><a class="texto__epigrafe" href="libro1.html">¿Cómo es tu caos?</a></h4>
-			<h4><a class="texto__epigrafe" href="libro1.html">¿Qué te da verguenza?</a></h4>
-			<img src="images/libro4.jpg">
-			<img src="images/libro5.jpg">
-			<img src="images/print1.jpg">			
-			<h4><a class="texto__epigrafe" href="libro1.html">¿Qué es viajar?</a></h4>
-			<h4><a class="texto__epigrafe" href="libro1.html">2020</a></h4>
-			<h4><a class="texto__epigrafe" href="libro1.html">Print · La forma de las nubes</a></h4>
-			<img src="images/print2.jpg">
-			<img src="images/print3.jpg">
-			<img src="images/tote.jpg">
-			<h4><a class="texto__epigrafe" href="libro1.html">Print · Tormenta que quedó del año pasado</a></h4>
-			<h4><a class="texto__epigrafe" href="libro1.html">Print · Mis hilos conductores</a></h4>
-			<h4><a class="texto__epigrafe" href="libro1.html">Tote Espuma</a></h4>
+			<ul class="grid grillaMobile">
+				<li class="figure"><a href="dondeestas.html">
+			  	<img class="Sirv image-main" src="dondeestas.html" data-src="images/libro1.jpg">
+			  	<img class="Sirv image-hover Sirvdos" data-src="images/dondeestas.gif"></a></li>		
+
+			  	<li class="figure"><a href="caos.html">
+			  	<img class="Sirv image-main" src="caos.html" data-src="images/libro2.jpg">
+			  	<img class="Sirv image-hover" data-src="images/caos.gif"></a></li>			
+				
+				<li class="figure"><a href="verguenza.html">
+			  	<img class="Sirv image-main" src="verguenza.html" data-src="images/libro3.jpg">
+			  	<img class="Sirv image-hover" data-src="images/verguenza.gif"></a></li>
+
+				<h4><a class="texto__epigrafe" href="dondeestas.html">¿Dónde estás?</a></h4>	
+				<h4><a class="texto__epigrafe" href="comoestucaos.html">¿Cómo es tu caos?</a></h4>
+				<h4><a class="texto__epigrafe" href="quetedaverguenza.html">¿Qué te da verguenza?</a></h4>
+
+				<li class="figure"><a href="viajar.html">
+			  	<img class="Sirv image-main" src="viajar.html" data-src="images/libro4.jpg">
+			  	<img class="Sirv image-hover" data-src="images/viajar.gif"></a></li>		
+
+			  	<li class="figure"><a href="2020.html">
+			  	<img class="Sirv image-main" src="2020.html" data-src="images/libro5.jpg">
+			  	<img class="Sirv image-hover" data-src="images/minutagrafica.gif"></a></li>			
+				
+				<li class="figure"><a href="tote.html">
+			  	<img class="Sirv image-main" src="tote.html" data-src="images/tote.jpg">
+			  	<img class="Sirv image-hover" data-src="images/totedorso.jpg"></a></li>
+
+			<h4><a class="texto__epigrafe" href="queesviajar.html">¿Qué es viajar?</a></h4>
+			<h4><a class="texto__epigrafe" href="2020.html">2020, Minuta gráfica #1</a></h4>
+			<h4><a class="texto__epigrafe" href="tote.html">Tote Espuma</a></h4>
+				
+				<li class="figure"><a href="printnubes.html">
+			  	<img class="Sirv image-main" src="printnubes.html" data-src="images/print1.jpg">
+			  	<img class="Sirv image-hover" data-src="images/print1_b.jpg"></a></li>		
+
+			  	<li class="figure"><a href="printruta.html">
+			  	<img class="Sirv image-main" src="printruta.html" data-src="images/print3.jpg">
+			  	<img class="Sirv image-hover" data-src="images/print3_b.jpg"></a></li>			
+				
+				<li class="figure"><a href="printcables.html">
+			  	<img class="Sirv image-main" src="printcables.html" data-src="images/print2.jpg">
+			  	<img class="Sirv image-hover" data-src="images/print2_b.jpg"></a></li>
+
+			<h4><a class="texto__epigrafe" href="printnubes.html">Print · La forma de las nubes</a></h4>			
+			<h4><a class="texto__epigrafe" href="printcables.html">Print · Mis hilos conductores</a></h4>
+			<h4><a class="texto__epigrafe" href="printruta.html">Print · Tormenta que quedó del año pasado</a></h4>
+			</ul>	
 		</div>
 	<hr>
 	</main>
@@ -61,7 +91,9 @@
 		<a class="a--gris" href="https://www.instagram.com/espuma.editora"> Instagram</a>
 		<a class="a--gris" href="https://issuu.com/home/published/que__es_viajar_issu"> Issuu</a> 
 	</footer>
-</body>
+
+	<script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+
 </body>
 
 </html>
